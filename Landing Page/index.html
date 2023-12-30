@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1 class="logo">TECHIE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Gadgets</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="./Images/MenuB.png" alt="" class="menu-button">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The World of My Smart-Gadgets</h2>
+            <div class="line"></div>
+            <h1>An Innovation of AI </h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!--Techie Range-->
+
+    <section class="events">
+        <div class="title">
+            <h1>Products</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./Images/Dizowatch2.png" alt="">
+                <h4>Realme DizoWatch 2</h4>
+                <p>"Unleash the Power of Your Wrist. Leave the Competition in Awe."</p>
+                <a href="https://www.dizo.net/DIZO_Watch.html" class="ctn">Learn More</a>
+            </div>
+            <div class="col align-top">
+                <img src="./Images/Gopods D.png" alt="">
+                <h4>Realme DizoGopods D</h4>
+                <p>"A Sound Experience That Leaves the Competition in Awe, Every Day."</p>
+                <a href="https://www.dizo.net/product/389.html" class="ctn">Learn More</a>
+            </div>
+            <div class="col align-top">
+                <img src="./Images/Realme 10.png" alt= "">
+                <h4>Realme 10</h4>
+                <p>
+                    "Unleash the Power of Perfect 10 Where Innovation Meets Imagination!"</p>
+                <a href="https://buy.realme.com/in/goods/599" class="ctn">Learn More</a>
+            </div>
+            <div class="col align-top">
+                <img src="./Images/Lenovo.png" alt="">
+                <h4>Lenovo IdeaPad Gaming 3</h4>
+                <p>"Where Power Meets Precision for the Ultimate Gaming Triumph"</p>
+                <a href="https://shorturl.at/psGL0" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+       <div class="explore-content">
+        <h1>
+            IN THE WORLD OF AI 
+        </h1>
+        <div class="line"></div>
+        <p>Immerse yourself in a futuristic utopia where artificial intelligence seamlessly integrates with everyday life. Witness your gadgets evolving into intuitive companions, learning your preferences and anticipating your needs. From intelligent homes that adjust to your mood to smart wearables that enhance your well-being, this world redefines the synergy between humans and technology. Experience a harmonious blend of cutting-edge innovation and personalized convenience, where the future unfolds at the touch of your fingertips. Welcome to a tomorrow where AI transforms the ordinary into the extraordinary.</p>
+        <a href="#" class="ctn1">Learn More</a>
+       </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1> UPCOMING GADGETS & TECHNOLOGIES </h1>
+                <div class="line"></div>
+                <p>
+                    "Stay ahead of the technology curve with our exclusive insights into the future of gadgets and technologies, covering cutting-edge advancements in AI, Internet of Things, and virtual reality."
+                </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-galary">
+                    <a href="https://shorturl.at/fFK24"><img src="./Images/Amazon Astro.png" alt=""></a>
+                    <a href="https://wowwee.com/chip"><img src="./Images/CHiPK9 Robot dog.png" alt=""></a>
+                    <a href="https://www.apple.com/apple-vision-pro/"><img src="./Images/AppleAR.png" alt=""></a>
+                    <a href="https://mycroft.ai/"><img src="./Images/Mycroft.png" alt=""></a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Lokhande Villa, road aside Jamir batteries, near Smarth Mangal Karyala, shirol 416103, INDIA | Phone: 7776852105 | Email: 07sumantlokhande10@gmail.com</p>
+        <p>Copyright @2023 Smart-Gadgets </p>
+    </section>
+    
+
+    <script>
+        const menubutton = document.querySelector('.menu-button')
+        const navlinks = document.querySelector('.nav-links')
+    
+        menubutton.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    
+
+</body>
+</html>
